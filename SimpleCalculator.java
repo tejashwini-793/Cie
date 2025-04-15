@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SimpleCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Arithmeticoperations");
 
         System.out.println("Simple Calculator");
         System.out.print("Enter first number: ");
@@ -44,4 +45,3 @@ public class SimpleCalculator {
         scanner.close();
     }
 }
-
